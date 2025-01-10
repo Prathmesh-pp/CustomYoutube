@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #6e45e2, #88d3ce);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .input-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-box input {
+    padding: 10px;
+    width: 70%;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+  }
+  
+  .input-box button {
+    padding: 10px 20px;
+    background-color: #5a33cc;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .input-box button:hover {
+    background-color: #4528a0;
+  }
+  
+  #videoContainer {
+    margin-top: 20px;
+  }
+  
+  #videoFrame {
+    width: 100%;
+    height: 315px;
+    max-width: 560px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #closeVideoBtn {
+    padding: 10px 20px;
+    background-color: #ff5c5c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  #closeVideoBtn:hover {
+    background-color: #d94b4b;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
